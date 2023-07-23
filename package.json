@@ -1,0 +1,30 @@
+{
+  "name": "maronn-token-verify",
+  "version": "0.4.1",
+  "description": "verify JWS and get payload",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/maronnjapan/token-verify.git"
+  },
+  "author": "maronn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maronnjapan/token-verify/issues"
+  },
+  "homepage": "https://github.com/maronnjapan/token-verify#readme",
+  "dependencies": {
+    "jwks-rsa": "^3.0.1",
+    "jws": "^4.0.0",
+    "maronn-token-verify": "^0.1.0"
+  },
+  "devDependencies": {
+    "@types/jws": "^3.2.5"
+  }
+}
